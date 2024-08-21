@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Aventura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo da Aventura!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Início</h2>
+        <p>Prepare-se para a aventura da sua vida! Explore novos lugares, descubra desafios emocionantes e viva experiências inesquecíveis.</p>
+        <button id="adventure-button">Comece a Aventura!</button>
+    </section>
+
+    <section id="about">
+        <h2>Sobre</h2>
+        <p>Este site é dedicado a todos os amantes de aventura. Aqui você encontrará informações sobre destinos incríveis, dicas de viagem e muito mais!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Para mais informações, entre em contato conosco:</p>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mundo da Aventura. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
